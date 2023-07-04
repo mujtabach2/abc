@@ -1,0 +1,130 @@
+@font-face {
+    font-family: myFont;
+    src: url(SuperMario256.ttf)
+  }
+
+.Header
+{
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  align-items: center;
+
+}
+#mn{
+  height: 90%;
+  border-radius: 30px;
+  margin-right: auto;
+  margin-left: 30px;
+  zoom: 1;
+}
+#ma{
+  font-family: myFont;
+  font-size: 35px;
+  margin-right:35%;
+  margin-left:auto;
+  justify-content: center;
+  color: #0b9bd7;
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:10px;
+   
+}
+.searchDi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+}
+#search{
+  width: 180px;
+  height:40px;
+  font-size: 25px;
+  padding-left: 5px;
+  margin-bottom:10px;
+  border:3px solid rgb(107, 145, 50);
+  border-radius: 20px;
+
+}
+.parent-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+.output-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 250px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#output {
+  display: flex;
+  flex-direction: row;
+  max-width: 250px;
+}
+#output button{
+  color: #0b9bd7;
+  font-size: 35px;
+  margin-right: 10px;
+  border: none;
+  background-color: #f5f5f5;
+}
+#output button:active{
+  color: #e52927;
+  transition: 0.05s;
+}
+#output button:hover
+{
+  cursor: url('Diamond\ Sword\ -\ Normal\ Select.cur') 0 16, auto;
+  color:#e52927;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
+}
+
+
+
+
+.grid-item
+{
+    display: flex;
+    font-family: myFont;
+    font-size: 70px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #0b9bd7;
+    border: none;
+
+}
+.grid-item:nth-child(odd) {
+    color:  #0b9bd7;
+  }
+  
+  .grid-item:nth-child(even) {
+    color: #facf09;
+  }
+  .grid-item:nth-child(3n+1) {
+    color: #e52927;
+  }
+  .grid-item:hover
+  {
+    border-radius: 50px;
+    background-color: aquamarine;
+  }
+  .grid-item:active{
+    opacity: 70%;
+    transition: 0.05s;
+  }

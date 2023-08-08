@@ -19,9 +19,10 @@ You can try out the Phonics/Alphabet Tool by visiting [Demo Link](https://keen-h
 ## Installation
 
 1. Clone this repository:
+```
 git clone https://github.com/mujtabach2/abc.git
-
-2. Open the `index.html` file in your web browser.
+```
+3. Open the `index.html` file in your web browser.
 
 ## Usage
 
